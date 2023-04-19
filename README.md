@@ -1,7 +1,3 @@
-layout: page
-title: "DM Editor"
-permalink: /
-
 
 [Home](/) | [Create a widget](/create-widget) | [github project](https://github.com/digimakergo/dmeditor)
 
