@@ -1,4 +1,5 @@
-[Home](/) | [Create a widget](/create-widget) | [API](/api) | [github project](https://github.com/digimakergo/dmeditor)
+
+[Home](/) | [Create a widget](/create-widget) | [API](/api) | [Data format](/data-format) | [github project](https://github.com/digimakergo/dmeditor)
 
 ## API
 
