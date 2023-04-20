@@ -24,16 +24,6 @@ DM Editor is a block-based visual editor.
 npm install dmeditor
 ```
 
-
-### Widgets
-[dmeditor-digimaker](https://github.com/digimakergo/dmeditor-digimaker/):  - Content widgets(eg. content grid, Gallary) for digimaker CMF
-
-Leave a messge [here](https://github.com/digimakergo/dmeditor/issues/1) if you want to promote your widgets.
-
-### Server side rendering
-
-DM Editor can be used directly in server side rendering via eg. NextJs. For non-nodejs environment(eg. .NET), you can run [dmeditor-server](https://github.com/digimakergo/dmeditor-server) to output html&js&css.
-
 ### Usage
 
 [Sample project](https://github.com/digimakergo/dmeditor-sample)
@@ -54,3 +44,12 @@ import {DMEditorView} from 'dmeditor';
 <DMEditorView data={data} />
 ```
 
+### Server side rendering
+
+DM Editor can be used directly in server side rendering via eg. NextJs. For non-nodejs environment(eg. .NET), you can run [dmeditor-server](https://github.com/digimakergo/dmeditor-server) to output html&js&css.
+
+
+### Widgets
+[dmeditor-digimaker](https://github.com/digimakergo/dmeditor-digimaker/):  - Content widgets(eg. content grid, Gallary) for digimaker CMF
+
+Leave a messge [here](https://github.com/digimakergo/dmeditor/issues/1) if you want to promote your widgets.
