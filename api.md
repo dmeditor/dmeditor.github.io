@@ -10,6 +10,7 @@ For using DM Editor
 Property|Required|Type|Description|
 ------|---|-----|----|
 data|true|Array\<any\>|Data for editing. See [data format](./data-format) for detail.|
+onChange|false|data:Array<any>)=>void| Trigged when there is data change
 browseImage|false|(props:BrowseProps)=>JSX.Element|When calling browse image, by default it will propmpt a input dialog|
 browseLink|false|(props:BrowseProps)=>JSX.Element|When calling browse image, by default it will propmpt a input dialog|
 pageTab|false|()=>JSX.Element|Function component to render page tab|
