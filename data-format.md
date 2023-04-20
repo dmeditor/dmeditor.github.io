@@ -23,7 +23,7 @@ Here is an example:
 |------|---|----|---|
 |  `type`  | true  | Block type's identifier, unique   |  `'text'` |
 |  `data`  | false | It differs depends on block type. In principle it means the 'value'   |  `'http://test.com/svg.png'` in `image` block type |
-| `children` | false  | Children widgets. Useful for componsite widgets(widet inside a widget). |
+| `children` | false  | Children widgets. Useful for componsite widgets(widet inside a widget). | Widget including a image and heading:  `type:'my_image_heading', children:[{type:'image', data {url:'http://example.com/image.png'} },{type:'heading', data:'News',settings:{level: 2} }]`|
 |  `common`  | false  | Common settings, eg. margin to top, padding.   |  `{marginTop: 10}` - margin to top is 10 pixel |
 |  `settings` | false   |  It differs depends on block type. In principle it means the settings.  | In heading `{level: 2}` means using h2 |
 |  `source`   | false |  It differs depends on block type. In principle it means the data source configuration (fixed or dyanmic).  | In image: `source:{sourceType: 'input'}`|
