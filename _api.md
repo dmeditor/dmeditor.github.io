@@ -8,8 +8,8 @@ data|data||
 imageBrowse|||
 linkBrowse|||
 pageTab|||
-fileUrl|||
-imageUrl|||
+getFileUrl|||
+getImageUrl|||
 
 ### DMEditorView
 Property|Type|Description|
