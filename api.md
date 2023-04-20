@@ -1,4 +1,8 @@
-## For using DM Editor
+[Home](/) | [Create a widget](/create-widget) | [API](/api) | [github project](https://github.com/digimakergo/dmeditor)
+
+## API
+
+For using DM Editor
 
 ### DMEditor
 
