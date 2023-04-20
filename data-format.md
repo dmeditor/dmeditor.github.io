@@ -1,3 +1,6 @@
+
+[Home](/) | [Create a widget](/create-widget) | [API](/api) | [Data format](/data-format) | [github project](https://github.com/digimakergo/dmeditor)
+
 ## Data format
 
 Here is an example:
