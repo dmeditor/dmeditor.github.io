@@ -16,7 +16,7 @@ DM Editor is a block-based visual editor.
 
 <a href="https://www.digimaker.com/var/images/w/wzz/upload-2038061186-screen1.png"><img width="500px" src="https://www.digimaker.com/var/images/thumbnail/images/w/wzz/upload-2038061186-screen1.png" /></a>
 
-<a href="https://raw.githubusercontent.com/digimakergo/dmeditor/main/screen2.png"><img width="500px" src="https://raw.githubusercontent.com/digimakergo/dmeditor/main/screen2.png" /></a>
+<a href="https://www.digimaker.com/var/images/l/loe/upload-103887251-screen2.png"><img width="500px" src="https://www.digimaker.com/var/images/thumbnail/images/l/loe/upload-103887251-screen2.png" /></a>
 
 ### Installation
 
