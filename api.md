@@ -54,3 +54,38 @@ defalutValue||||
 
 ### PropertyItem
 -->
+
+## Mobile styling
+For mobile styling, there are 2 typical ways: 
+- 1) Use `dmeditor-view-mobile` as css class filter 
+- 2) Use useGetDevice for custom rendering.
+
+We recommanded to try to use way 1), because it's better for performance, but sometimes way 2) is almost the only way(eg. move image to top in mobile if it's hard only using css).
+
+
+### Device hook
+`useGetDevice` can be used to detect mode, 'mobile'|'tablet'|''
+
+
+### css class
+class |Description|
+------|---|
+dmeditor-view|Root class for viewing
+dmeditor-view-mobile|Mobile view
+dmeditor-view-tablet| Tablet view
+block-container| container div for a block element
+inblock|Same level as block-container, embed in other widget
+block-type-<type>|Child of block-container, for each widget. eg. `block-type-image`
+
+### css variables
+
+Below css variables are for css `calc` function only.
+
+variable |Description|
+------|---|
+dme-main-width|DMEditor's root element in pixel
+dme-container-width|Width of DM Editor's 'container', used for eg. setting full screen. By default it's 100vw, but if you want to embed full screen image to another container, change this variable in css of that container. 
+
+
+
+
