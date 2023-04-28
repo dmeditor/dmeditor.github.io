@@ -104,7 +104,7 @@ onCancel|()=>void|
 onDelete|()=>void|
 
 
-### Mobile styling & rendering
+## Mobile styling & rendering when developing a widget
 For mobile styling, there are 2 typical ways: 
 - 1) Use `dmeditor-view-mobile` as css class filter 
 - 2) Use `useGetDevice` for custom rendering.
