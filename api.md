@@ -59,7 +59,7 @@ defalutValue||||
 ### PropertyItem
 -->
 
-## Developping widget
+## Developing widget
 
 ### Mobile styling & rendering
 For mobile styling, there are 2 typical ways: 
