@@ -64,7 +64,7 @@ We recommanded to try to use way 1), because it's better for performance, but so
 
 
 ### Device hook
-Hook `useGetDevice` form `dmeditor/utils` can be used to detect mode. Returns 'mobile'|'tablet'|''
+Hook `useGetDevice` from `dmeditor/utils` can be used to detect mode. Returns 'mobile'|'tablet'|''
 
 
 ### css class
