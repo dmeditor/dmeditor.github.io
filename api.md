@@ -91,8 +91,17 @@ render|(props:ToolRenderProps)=>JSX.ReactElement| When rendering in edit mode
 
 ### ToolRenderProps
 
-class |Description|
-------|-----|
+
+class| Type |Description|
+-----|---|-----|
+data||
+active|boolean|
+adding|boolean
+view|boolean|
+inBlock|boolean|
+onChange|(data:any, debounce?:boolean)=>void|
+onCancel|()=>void|
+onDelete|()=>void|
 
 
 ### Mobile styling & rendering
