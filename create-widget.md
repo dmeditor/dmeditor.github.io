@@ -47,6 +47,10 @@ export const BlockImage = (props:ToolRenderProps)=>{
 }
 ```
 
+For styling, DM Editor use emotion css, so you are free to style what every you want. We have some predeined css variable & classes so you can use in your widget: See [Mobile styling & rendering ](/api#mobile-styling--rendering-when-developing-a-widget)
+
+
+
 #### 1.2. Register the tool(and new category) (can be in App.tsx)
 
 ```typescript
