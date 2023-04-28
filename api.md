@@ -58,13 +58,13 @@ defalutValue||||
 ## Mobile styling
 For mobile styling, there are 2 typical ways: 
 - 1) Use `dmeditor-view-mobile` as css class filter 
-- 2) Use useGetDevice for custom rendering.
+- 2) Use `useGetDevice` for custom rendering.
 
 We recommanded to try to use way 1), because it's better for performance, but sometimes way 2) is almost the only way(eg. move image to top in mobile if it's hard only using css).
 
 
 ### Device hook
-`useGetDevice` can be used to detect mode, 'mobile'|'tablet'|''
+Hook `useGetDevice` form `dmeditor/utils` can be used to detect mode. Returns 'mobile'|'tablet'|''
 
 
 ### css class
