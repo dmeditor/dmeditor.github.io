@@ -93,16 +93,16 @@ render|(props:ToolRenderProps)=>JSX.ReactElement| When rendering in edit mode
 ### ToolRenderProps
 
 
-class| Type |Description|
------|---|-----|
-data|any see [data format](/data-format)|
-active|boolean|
-adding|boolean
-view|boolean|
-inBlock|boolean|
-onChange|(data:any, debounce?:boolean)=>void|
-onCancel|()=>void|
-onDelete|()=>void|
+Property|Required| Type |Description|
+-----|--|---|-----|
+data|true|any see [data format](/data-format)|data of the widget
+active|true|boolean| If it's active(selected when mouse clicks)
+adding|false|boole| If it's adding
+view|false|boolean| If it's viewing
+inBlock|false|boolean| If it's inside another widget
+onChange|true|(data:any, debounce?:boolean)=>void| Callback when change. Use debounce when change is intense (eg. text typing).
+onCancel|false|()=>void| Callback when cancel adding the widget
+onDelete|false|()=>void| Callback when delete is triggered
 
 
 ## Mobile styling & rendering when developing a widget
