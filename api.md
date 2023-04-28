@@ -75,7 +75,7 @@ dmeditor-view-mobile|Mobile view
 dmeditor-view-tablet| Tablet view
 block-container| container div for a block element
 inblock|Same level as block-container, embed in other widget
-block-type-<type>|Child of block-container, for each widget. eg. `block-type-image`
+`block-type-<type>`|Child of block-container, for each widget. eg. `block-type-image`
 
 ### css variables
 
