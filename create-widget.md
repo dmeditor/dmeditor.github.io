@@ -8,7 +8,7 @@ You can create a new widget which has unique type, or you can create a 'style' o
 ### Example 1: create a widget (block type)
 
 Below is a simple example which rendering a fixed url's image and set a input box so the user can enter width.  *Check [Full Image implementation](https://github.com/digimakergo/dmeditor/blob/main/src/blocks/BlockImage.tsx) as example*
-#### Step 1. Create a block handler
+#### Step 1. Implement a widget
 ```javascript
 
 //define a tool
