@@ -72,10 +72,11 @@ Below is a ToolDefinition example:
 ```javascript
 {
     type: 'image',
-    menu:  {text:"Image", category:'basic',icon: <ImageOutlined /> },
-    initData: {type:'image', data:'http://test.com/svg.png', settings:{}},
-    view: BlockImage,
-    render: BlockImage
+    name: 'Image',
+    menu:  {category:'basic',icon: <ImageOutlined /> },
+    initData: ()=> {type:'image', data:'http://test.com/svg.png', settings:{}},
+    view: (props:{data:any})=><BlockImage view={true} data={props.data} inBlock={false} active={false} onChange={()=>{}} />,
+    render: (props:ToolRenderProps)=><BlockImage {...props} />
 }
 ```
 
