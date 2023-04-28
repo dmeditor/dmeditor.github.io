@@ -69,7 +69,7 @@ Hook `useGetDevice` from `dmeditor/utils` can be used to detect mode. Returns 'm
 
 ### Css class
 class |Description|
-------|--- |
+------|-----|
 dmeditor-view | Root class for viewing |
 dmeditor-view-mobile | Mobile view |
 dmeditor-view-tablet | Tablet view |
