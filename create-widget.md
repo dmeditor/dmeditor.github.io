@@ -8,7 +8,7 @@ You can create a new widget which has unique type, or you can create a 'style' o
 ### Example 1: create a widget (block type)
 
 Below is a simple example which rendering a fixed url's image and set a input box so the user can enter width.  *Check [Full Image implementation](https://github.com/digimakergo/dmeditor/blob/main/src/blocks/BlockImage.tsx) as example*
-#### 1.1. Create a block handler
+#### Step 1. Create a block handler
 
 ```javascript
 
@@ -46,15 +46,8 @@ export const toolImage = {
     render: (props:ToolRenderProps)=><BlockImage {...props} />
 }
 ```
-#### Style
 
-For styling, DM Editor use emotion css, so you are free to style what every you want. We have some predeined css variable & classes so you can use in your widget: See [Mobile styling & rendering ](/api#mobile-styling--rendering-when-developing-a-widget)
-
-
-#### Library for intraction(eg. dropdown, input)
-For intraction, you can use third party libaray in side `BlockProperty`, eg. Boostrap React / MUI / Ant design. We use mui for intraction(input, model, dropdown, etc) for now.
-
-#### 1.2. Register the tool(and new category) (can be in App.tsx)
+#### Step 2. Register the tool(and new category) (can be in App.tsx)
 
 ```typescript
 import { registerTool, registerCategory } from "dmeditor";
@@ -65,6 +58,15 @@ registerCategory({identifier:'content', text:'Content'});
 //register the tool
 registerTool(toolImage);
 ```
+
+
+#### Styling
+
+For styling, DM Editor uses emotion css, so you are free to style what every you want. We have some predeined css variable & classes so you can use in your widget: See [Mobile styling & rendering ](/api#mobile-styling--rendering-when-developing-a-widget)
+
+
+#### Library for intraction(eg. dropdown, input)
+For intraction, you can use third party libaray in side `BlockProperty`, eg. Boostrap React / MUI / Ant design. We use mui for intraction(input, model, dropdown, etc) for now.
 
 ### Example 2: create a widget template(styled widget)
 
