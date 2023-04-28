@@ -87,7 +87,7 @@ Property|Type|Description
 type|string| Type of the block type
 menu|object. See example above| The block type shown in the tool menu after clicking 'plus'(add) icon.
 initData|any see [data format](/data-format)| Initial data of the block type
-view| (props:{data:any})=>JSX.ReactElement| When rendering in view mode
+view| (props:{data:any})=>JSX.ReactElement| When rendering in view mode, most case reuse `render`'s implementation with view = tue
 render|(props:ToolRenderProps)=>JSX.ReactElement| When rendering in edit mode
 
 ### ToolRenderProps
