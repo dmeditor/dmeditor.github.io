@@ -61,6 +61,38 @@ defalutValue||||
 
 ## Developing widget
 
+### registerTool
+
+Name|Parameter|Description
+-----|---|---|
+registerTool|ToolDefinition|Register a block type to the system.
+
+Below is a ToolDefinition example:
+
+```javascript
+{
+    type: 'image',
+    menu:  {text:"Image", category:'basic',icon: <ImageOutlined /> },
+    initData: {type:'image', data:'http://test.com/svg.png', settings:{}},
+    view: BlockImage,
+    render: BlockImage
+}
+```
+
+### ToolDefinition
+
+Property|Type|Description
+-----|---|---|
+type|string| Type of the block type
+menu|object. See example above| The block type shown in the tool menu after clicking 'plus'(add) icon.
+initData|any see [data format](/data-format)| Initial data of the block type
+view| (props:{data:any})=>JSX.ReactElement| When rendering in view mode
+render|(props:ToolRenderProps)=>JSX.ReactElement| When rendering in edit mode
+
+### ToolRenderProps
+
+
+
 ### Mobile styling & rendering
 For mobile styling, there are 2 typical ways: 
 - 1) Use `dmeditor-view-mobile` as css class filter 
