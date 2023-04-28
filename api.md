@@ -95,7 +95,7 @@ render|(props:ToolRenderProps)=>JSX.ReactElement| When rendering in edit mode
 
 class| Type |Description|
 -----|---|-----|
-data||
+data|any see [data format](/api/data-format)|
 active|boolean|
 adding|boolean
 view|boolean|
