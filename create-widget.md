@@ -56,7 +56,7 @@ registerTool(toolImage);
 
 ### Styling
 
-For styling, DM Editor uses emotion css, so you are free to style whatever you want. We have some predeined css variable & classes so you can use in your widget: See [Mobile styling & rendering ](/api#mobile-styling--rendering-when-developing-a-widget)
+For styling, DM Editor uses emotion css, so you are free to style whatever you want. We have some predefined css variables & classes so you can use in your widget: See [Mobile styling & rendering ](/api#mobile-styling--rendering-when-developing-a-widget)
 
 
 ### Library for intraction(eg. dropdown, input)
