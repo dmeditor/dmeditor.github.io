@@ -37,13 +37,14 @@ export const BlockImage = (props:ToolRenderProps)=>{
 
 
 //Define toolImage
-  export const toolImage:ToolDefinition = {
+{
     type: 'image',
-    menu:  {text:"Image", category:'basic',icon: <ImageOutlined /> },
-    initData: {type:'image', data:'http://test.com/svg.png', settings:{}},
-    view: BlockImage,
-    render: BlockImage
-};  
+    name: 'Image',
+    menu:  {category:'basic',icon: <ImageOutlined /> },
+    initData: ()=> {type:'image', data:'http://test.com/svg.png', settings:{}},
+    view: (props:{data:any})=><BlockImage view={true} data={props.data} inBlock={false} active={false} onChange={()=>{}} />,
+    render: (props:ToolRenderProps)=><BlockImage {...props} />
+}
 ```
 
 #### 1.2. Register the tool(and new category) (can be in App.tsx)
