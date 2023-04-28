@@ -91,6 +91,8 @@ render|(props:ToolRenderProps)=>JSX.ReactElement| When rendering in edit mode
 
 ### ToolRenderProps
 
+class |Description|
+------|-----|
 
 
 ### Mobile styling & rendering
