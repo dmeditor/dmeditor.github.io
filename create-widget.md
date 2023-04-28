@@ -18,7 +18,7 @@ export const BlockImage = (props:ToolRenderProps)=>{
    const [width, setWidth] = useState(300);
 
     return <div>
-    {* property */}           
+    {/* property */}           
             <BlockProperty title={'Image'} active={props.active}>
                 <PropertyItem label="Width">
                     <input type="text" defaultValue={width} onChange={(e)=>setWidth(parseInt(e.target.value))} />
