@@ -65,7 +65,7 @@ For styling, DM Editor uses emotion css, so you are free to style what every you
 
 
 #### Library for intraction(eg. dropdown, input)
-For intraction, you can use third party libaray in side `BlockProperty`, eg. Boostrap React / MUI / Ant design. We use mui for intraction(input, model, dropdown, etc) for now.
+For intraction, you can use third party libaray in side `BlockProperty`, eg. Boostrap React / MUI / Ant design. We use MUI for intraction(input, model, dropdown, etc) for now.
 
 ### Example 2: create a widget template(styled widget)
 
