@@ -67,7 +67,7 @@ We recommanded to try to use way 1), because it's better for performance, but so
 Hook `useGetDevice` from `dmeditor/utils` can be used to detect mode. Returns 'mobile'|'tablet'|''
 
 
-### css class
+### Css class
 class |Description|
 ------|---|
 dmeditor-view|Root class for viewing
@@ -77,7 +77,7 @@ block-container| container div for a block element
 inblock|Same level as block-container, embed in other widget
 `block-type-<type>`|Child of block-container, for each widget. eg. `block-type-image`
 
-### css variables
+### Css variables
 
 Below css variables are for css `calc` function only.
 
