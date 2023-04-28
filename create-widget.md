@@ -37,7 +37,7 @@ export const BlockImage = (props:ToolRenderProps)=>{
 
 
 //Define toolImage
-{
+export const toolImage = {
     type: 'image',
     name: 'Image',
     menu:  {category:'basic',icon: <ImageOutlined /> },
