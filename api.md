@@ -55,7 +55,7 @@ defalutValue||||
 ### PropertyItem
 -->
 
-## Mobile styling
+## Mobile styling & rendering
 For mobile styling, there are 2 typical ways: 
 - 1) Use `dmeditor-view-mobile` as css class filter 
 - 2) Use `useGetDevice` for custom rendering.
