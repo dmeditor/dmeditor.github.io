@@ -5,7 +5,10 @@
 
 For using DM Editor
 
+
+
 ### DMEditor
+Use DM Editor for editing.
 
 Property|Required|Type|Description|
 ------|---|-----|----|
@@ -19,6 +22,7 @@ getImageUrl|false|(path:string)=>string|When getting image url. Path is used if 
   
 
 ### DMEditorView
+Use DM Editor for viewing.
 
 Property|Required|Type|Description|
 ------|---|-----|----|
@@ -55,7 +59,9 @@ defalutValue||||
 ### PropertyItem
 -->
 
-## Mobile styling & rendering
+## Developping widget
+
+### Mobile styling & rendering
 For mobile styling, there are 2 typical ways: 
 - 1) Use `dmeditor-view-mobile` as css class filter 
 - 2) Use `useGetDevice` for custom rendering.
