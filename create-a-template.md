@@ -14,7 +14,7 @@ import { registerTemplate } from "dmeditor";
 
 registerTemplate(
         blocktype: 'heading',        
-        identifier:'blocktext_heading_sample', 
+        identifier:'sample', 
         name:'Block heading text', 
         css:`background:#ffcc00; 
         h2{
@@ -34,7 +34,7 @@ var dmeditor = {
 templates:[
   {
           blocktype: 'heading',        
-          identifier:'blocktext_heading_sample', 
+          identifier:'sample', 
           name:'Block heading text', 
           css:`background:#ffcc00; 
           h2{
