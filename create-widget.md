@@ -25,7 +25,7 @@ export const SampleWidget = (props:ToolRenderProps)=>{
                 </PropertyItem>               
             </BlockProperty>
 
-            <div style=\{\{width: width\}\} className={css`height:300px; background:#ffe3e3`}>
+            <div style={ {width: width} } className={css`height:300px; background:#ffe3e3`}>
             {props.data.data} <br />
             Width: {width}</div>        
             </div>
