@@ -9,21 +9,23 @@ There are 2 ways to styleize a widget, first way is in React( eg. in App.tsx ), 
 
 ### Way 1. Register from react(eg. in your App.tsx)
 
-```javascript
+```typescript
+import { css } from "@emotion/css";
 import { registerTemplate } from "dmeditor";
 
-registerTemplate(
-        blocktype: 'heading',        
-        identifier:'sample', 
-        name:'Block heading text', 
-        css:css`background:#ffcc00; 
-        h2{
-            text-align:center;
-        }`,
-        initData: ()=>{
-          const data = {type:'heading', settings:{level: 2}};
-          return {...data, data:'Hello1', common:{...data.common, color: '#9C27B0' }}
-        }
+registerTemplate({
+    blocktype: 'heading',        
+    identifier:'Sample', 
+    name:'Sample template', 
+    css:css`background:#ffcc00; 
+    h2{
+        text-align:center;
+    }`,
+    initData: ()=>{
+      const data = {type:'heading', settings:{level: 2}};
+      return {...data, data:'Hello1', common:{color: '#9C27B0' }}
+    }
+ }
 );
 ```
 ### Way 2. Register from global `<script>`
@@ -44,7 +46,7 @@ templates:[
           }`,
           initData: ()=>{
             const data = {type:'heading', settings:{level: 2}};
-            return {...data, data:'Hello1', common:{...data.common, color: '#9C27B0' }}
+            return {...data, data:'Hello1', common:{color: '#9C27B0' }}
           }, 
       }
 ]
