@@ -53,4 +53,7 @@ DM Editor can be used directly in server side rendering via eg. NextJs. For non-
 ### Widgets
 [dmeditor-digimaker](https://github.com/digimakergo/dmeditor-digimaker/):  - Content widgets(eg. content grid, Gallary) for digimaker CMF
 
+### Templates CDN
+See https://github.com/dmeditor/templates to use template CDN. Welcome to send pull request to add your templates.
+
 Leave a messge [here](https://github.com/dmeditor/dmeditor/issues/1) if you want to promote your widgets or templates.
