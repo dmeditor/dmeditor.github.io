@@ -3,7 +3,7 @@
 
 ## Create a widget template(styled widget)
 
-A widget template gives freedom of styling a widget with mostly only css. eg. add a line under h2. Those styled widgets are mostly specific for your projects.
+A widget template is customization of a widget. eg. add a background image for heading.
 
 There are 2 ways to styleize a widget, first way is in React( eg. in App.tsx ), second way is in <script> or external js file.
 
