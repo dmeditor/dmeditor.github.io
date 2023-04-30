@@ -29,7 +29,7 @@ npm install dmeditor
 
 [Sample project](https://github.com/dmeditor/dmeditor-sample)
 
-Edit:
+#### Edit
 ```typescript
 import {DMEditor} from 'dmeditor';
 
@@ -37,12 +37,19 @@ import {DMEditor} from 'dmeditor';
 <DMEditor data={[]} />
 ```
 
-View:
+#### View
 ```typescript
 import {DMEditorView} from 'dmeditor';
 
 //...
 <DMEditorView data={data} />
+```
+
+#### Templates
+Put below in your html to use our open source templates:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/dmeditor/templates@main/templates.js"></script>
 ```
 
 ### Server side rendering
@@ -57,5 +64,5 @@ Leave a messge [here](https://github.com/dmeditor/dmeditor/issues/1) if you want
 
 
 ### Templates CDN
-See https://github.com/dmeditor/templates to use template CDN. Welcome to send pull request to add your templates.
+See [https://github.com/dmeditor/templates](https://github.com/dmeditor/templates) to use template CDN. Welcome to send pull request to add your templates.
 
