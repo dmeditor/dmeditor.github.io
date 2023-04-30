@@ -2,43 +2,46 @@
 
 ## Create your widget
 
-Below is a simple example which rendering a fixed url's image and set a input box so the user can enter width.  *Check [Full Image implementation](https://github.com/digimakergo/dmeditor/blob/main/src/blocks/BlockImage.tsx) as example*
+Below is a simple example which rendering a fixed url's image and set a input box so the user can enter width.  *Check [Sample widget implementation](https://github.com/dmeditor/dmeditor-sample/blob/main/src/SampleWidget.tsx) as example*
 ### Step 1. Implement a widget
-```javascript
-
-//define a tool
-import { ToolRenderProps } from "dmeditor";
+```typescript
+import { css } from "@emotion/css";
+import { Input, Slider } from "@mui/material";
+import { BlockProperty, ToolDefinition, ToolRenderProps } from "dmeditor";
 
 import {PropertyGroup, PropertyItem, Ranger} from 'dmeditor/utils';
+import { useState } from "react";
 
 //Implementation
-export const BlockImage = (props:ToolRenderProps)=>{
+export const SampleWidget = (props:ToolRenderProps)=>{
    ///add status control here
-   const [url, setUrl] = useState(props.data.data as string);
    const [width, setWidth] = useState(300);
 
     return <div>
     {/* property */}           
-            <BlockProperty title={'Image'} active={props.active}>
-                <PropertyItem label="Width">
-                    <input type="text" defaultValue={width} onChange={(e)=>setWidth(parseInt(e.target.value))} />
+            <BlockProperty blocktype={'sample'}>
+                <PropertyItem label="Width">       
+                    <Slider aria-label="Width" valueLabelDisplay="auto" defaultValue={width} step={5} max={800} onChange={(e, v)=>setWidth(v as number)} />             
                 </PropertyItem>               
             </BlockProperty>
 
-            <img width={width} src={imageUrl} />        
+            <div style={{width: width}} className={css`height:300px; background:#ffe3e3`}>
+            {props.data.data} <br />
+            Width: {width}</div>        
             </div>
 }
 
 
-//Define toolImage
-export const toolImage = {
-    type: 'image',
-    name: 'Image',
-    menu:  {category:'basic',icon: <ImageOutlined /> },
-    initData: ()=> {type:'image', data:'http://test.com/svg.png', settings:{}},
-    view: (props:{data:any})=><BlockImage view={true} data={props.data} inBlock={false} active={false} onChange={()=>{}} />,
-    render: (props:ToolRenderProps)=><BlockImage {...props} />
+//Define toolSampleWidget
+export const toolSampleWidget:ToolDefinition = {
+    type: 'sample',
+    name: 'Sample widget',
+    menu:  {category:'basic',icon: <span>A</span> },
+    initData: ()=>{return {type:'sample', data:'This is a sample.', settings:{}}},
+    view: (props:{data:any})=><SampleWidget view={true} data={props.data} inBlock={false} active={false} onChange={()=>{}} />,
+    render: (props:ToolRenderProps)=><SampleWidget {...props} />
 }
+
 ```
 
 ### Step 2. Register the tool(and new category) (can be in App.tsx)
@@ -50,7 +53,7 @@ import { registerTool, registerCategory } from "dmeditor";
 registerCategory({identifier:'content', text:'Content'});
 
 //register the tool
-registerTool(toolImage);
+registerTool(toolSampleWidget);
 ```
 
 
