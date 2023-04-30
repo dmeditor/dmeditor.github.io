@@ -16,7 +16,7 @@ registerTemplate(
         blocktype: 'heading',        
         identifier:'sample', 
         name:'Block heading text', 
-        css:`background:#ffcc00; 
+        css:css`background:#ffcc00; 
         h2{
             text-align:center;
         }`,
@@ -28,6 +28,8 @@ registerTemplate(
 ```
 ### Way 2. Register from global `<script>`
 DMEditor reads global variable `dmeditor`'s `templates` property for all templates.
+
+Note: in below code, css property's value is a template string, while in Way 1 it's invoking css function from emotion.
 
 ```javascript
 var dmeditor = {
@@ -47,4 +49,5 @@ templates:[
       }
 ]
 }
+        
 ```
