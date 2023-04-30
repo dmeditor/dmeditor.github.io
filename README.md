@@ -22,7 +22,6 @@ DM Editor is a block-based visual editor.
 
 ```
 npm install dmeditor
-#note: for react version 18 you may need --legacy-peer-deps
 ```
 
 ### Usage
