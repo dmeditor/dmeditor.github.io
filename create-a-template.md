@@ -9,6 +9,8 @@ There are 2 ways to styleize a widget, first way is in React( eg. in App.tsx ), 
 
 ### Way 1. Register from react(eg. in your App.tsx)
 
+See [sample template](https://github.com/dmeditor/dmeditor-sample/blob/main/src/SampleTemplate.tsx)
+
 ```typescript
 import { css } from "@emotion/css";
 import { registerTemplate } from "dmeditor";
