@@ -4,4 +4,4 @@
 
 [Create a template](/create-a-template)
 
-[Style DM Editor](/styling)
+[Style DM Editor and mobile](/styling)
