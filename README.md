@@ -1,7 +1,7 @@
 
 [Home](/) | [Create a widget](/create-widget) | [Create a template](/create-a-template.md) | [API](/api) | [Data format](/data-format) | [github project](https://github.com/dmeditor/dmeditor)
 
-DM Editor is a block-based visual editor.
+DM Editor is a block-based visual editor, written in React.
 
 ### Highlights
 - Block based, real WYSIWYG(What you see is what you get)
