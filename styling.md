@@ -35,6 +35,7 @@ dme-block-container | container div for a block element |
 inblock | Same level as block-container, if the widget is embed in other widget, this class will be added to .block-container |
 dme-block | Block element, children of block container
 dme-blocktype-\<type\> | Child of block-container, for each widget. eg. `block-type-image` |
+dme-blocklis|Block list container, eg. in Image Text widget, heading and text are under `dme-blocklist`
 
 ### Css classes in widgets
 TBD
