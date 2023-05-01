@@ -22,7 +22,7 @@ DM Editor is a block-based visual editor, written in React.
 ```
 npm install dmeditor
 ```
-
+*Note: to develop widgets, suggest to install `@mui/material` and `@emotion/css` so you get all benefits of mui and emotion css. See sample project for detail.*
 ### Usage
 
 [Sample project](https://github.com/dmeditor/dmeditor-sample)
