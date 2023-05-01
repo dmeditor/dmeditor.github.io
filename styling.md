@@ -1,3 +1,5 @@
+[Home](/) | [Development](/development) | [API](/api) | [Data format](/data-format) | [github project](https://github.com/dmeditor/dmeditor)
+
 # Styling
 
 ### Mobile styling & rendering when developing a widget
