@@ -5,8 +5,6 @@
 
 For using DM Editor
 
-
-
 ### DMEditor
 Use DM Editor for editing.
 
@@ -108,3 +106,6 @@ onDelete|false|()=>void| Callback when delete is triggered
 ### Device hook
 Hook `useGetDevice` from `dmeditor/utils` can be used to detect mode. Returns 'mobile'|'tablet'|''
 
+### Css variables & classes
+
+See [here](/styling#css-variables)
