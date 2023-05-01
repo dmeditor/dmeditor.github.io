@@ -23,11 +23,10 @@ DM Editor is a block-based visual editor, written in React.
 npm install dmeditor
 ```
 *Note: to develop widgets, suggest to install `@mui/material` and `@emotion/css` so you get all benefits of mui and emotion css. See sample project for detail.*
-### Usage
+## Usage
+Easy way is to clone [Sample project](https://github.com/dmeditor/dmeditor-sample)
 
-[Sample project](https://github.com/dmeditor/dmeditor-sample)
-
-#### Edit
+### For edit
 ```typescript
 import {DMEditor} from 'dmeditor';
 
@@ -35,7 +34,7 @@ import {DMEditor} from 'dmeditor';
 <DMEditor data={[]} />
 ```
 
-#### View
+### For view
 ```typescript
 import {DMEditorView} from 'dmeditor';
 
@@ -43,17 +42,12 @@ import {DMEditorView} from 'dmeditor';
 <DMEditorView data={data} />
 ```
 
-#### Templates
+### Templates
 Put below in your html to use our open source templates:
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/dmeditor/templates@main/templates.js"></script>
 ```
-
-### Server side rendering
-
-DM Editor can be used directly in server side rendering via eg. NextJs. For non-nodejs environment(eg. .NET), you can run [dmeditor-server](https://github.com/dmeditor/dmeditor-server) to output html&js&css.
-
 
 ### Widgets
 [dmeditor-digimaker](https://github.com/digimakergo/dmeditor-digimaker/):  - Content widgets(eg. content grid, Gallary) for digimaker CMF
@@ -64,3 +58,7 @@ Leave a messge [here](https://github.com/dmeditor/dmeditor/issues/1) if you want
 ### Templates CDN
 See [https://github.com/dmeditor/templates](https://github.com/dmeditor/templates) to use template CDN. Welcome to send pull request to add your templates.
 
+
+## SSR (Server side rendering)
+
+DM Editor can be used directly in server side rendering via eg. NextJs. For non-nodejs environment(eg. .NET), you can run [dmeditor-server](https://github.com/dmeditor/dmeditor-server) to output html&js&css.
