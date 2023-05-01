@@ -2,7 +2,7 @@
 
 # Development
 
-Below are about creating widgets, widget template and styling (including custome rendering in mobile).
+Below are about creating widgets, widget template and styling (including custom rendering in mobile).
 
 [Create a widget](/create-widget)
 
