@@ -64,5 +64,5 @@ See [https://github.com/dmeditor/templates](https://github.com/dmeditor/template
 ### NodeJS
 DM Editor can be used directly in server side rendering via eg. NextJs. 
 
-### PHP/.NET/Java
+### PHP/.NET/Java etc
 You can use server side include to embed output of [dmeditor-server](https://github.com/dmeditor/dmeditor-server), which outputs html&css&js from DM Editor's json data.
