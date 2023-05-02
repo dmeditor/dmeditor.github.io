@@ -61,5 +61,8 @@ See [https://github.com/dmeditor/templates](https://github.com/dmeditor/template
 
 
 ## SSR (Server side rendering)
+### NodeJS
+DM Editor can be used directly in server side rendering via eg. NextJs. 
 
-DM Editor can be used directly in server side rendering via eg. NextJs. For non-nodejs environment(eg. .NET), you can run [dmeditor-server](https://github.com/dmeditor/dmeditor-server) to output html&js&css.
+### PHP/.NET/Java
+You can use server side include to embed output of [dmeditor-server](https://github.com/dmeditor/dmeditor-server), which outputs html&css&js from DM Editor's json data.
