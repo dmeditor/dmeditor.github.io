@@ -7,7 +7,7 @@ DM Editor is a block-based visual editor, written in React.
 
 ### Highlights
 - Block based, real WYSIWYG(What you see is what you get)
-- See immediate change while slding padding, width, color, margin, etc
+- See immediate change while slide on padding, width, color, margin, etc
 - Intractive widgets like tab, accordion
 - Get benefits of React ecosystem for creating widget.
 - Style a widget (widget template)
