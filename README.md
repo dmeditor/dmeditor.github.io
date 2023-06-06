@@ -3,7 +3,7 @@
 
 DM Editor is a block-based visual editor, written in React.
 
-[Online demo](https://demo.dmeditor.io/editor?d=demo) | [An introduction article](https://medium.com/@xcdubi/introducing-dm-editor-a-visual-editor-in-react-ecfbff4bd9d)
+[Online demo](https://demo.dmeditor.io/editor?d=demo) \| [An introduction article](https://medium.com/@xcdubi/introducing-dm-editor-a-visual-editor-in-react-ecfbff4bd9d)
 
 ### Highlights
 - Block based, real WYSIWYG(What you see is what you get)
