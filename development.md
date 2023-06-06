@@ -8,4 +8,6 @@ Below are about creating widgets, widget template and styling (including custom 
 
 [Create a widget style](/create-a-style)
 
+[Create a widget template](/create-a-template)
+
 [Style DM Editor and mobile](/styling)
