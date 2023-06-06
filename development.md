@@ -6,6 +6,6 @@ Below are about creating widgets, widget template and styling (including custom 
 
 [Create a widget](/create-widget)
 
-[Create a widget template](/create-a-template)
+[Create a widget style](/create-a-style)
 
 [Style DM Editor and mobile](/styling)
