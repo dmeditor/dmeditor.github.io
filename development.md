@@ -11,3 +11,7 @@ Below are about creating widgets, widget template and styling (including custom 
 [Create a widget template](/create-a-template)
 
 [Style DM Editor and mobile](/styling)
+
+
+# Roadmap
+Click here to see our roadmap: https://github.com/orgs/dmeditor/projects/1/views/1
