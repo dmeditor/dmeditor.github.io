@@ -4,8 +4,7 @@
 
 
 
-⚠️ ⚠️ ⚠️ Important: this documentation is for 0.1.x, which is deprecated. use [dmeditor.io/doc](https://dmeditor.io/doc) for latest version!
-<br />
+### ⚠️ ⚠️ ⚠️ Important: this documentation is for 0.1.x, which is deprecated. use [dmeditor.io/doc](https://dmeditor.io/doc) for latest version!
 
 
 DM Editor is a block-based visual editor, written in React.
